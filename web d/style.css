@@ -1,3 +1,73 @@
+@keyframes ellipticalSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply the animation only when the slide-in class is present */
+.section.slide-in {
+    animation: ellipticalSlideIn 1s ease-out;
+}
+
+/* Initially hide all sections */
+.section.hidden {
+    display: none;
+}
+#home-section {
+    color: grey; /* White text color */
+    font-size: 24px; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+}
+#home-section p {
+text-align: justify;
+}
+/* ... (your existing styles) ... */
+
+/* Keyframe animation for elliptical slide-in */
+@keyframes ellipticalSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.section.slide-in {
+    animation: ellipticalSlideIn 1s ease-out;
+}
+
+#about-section{
+    color: grey; 
+    font-size: 24px; 
+    line-height: 1.5;
+}
+#about-section ul{
+    color: wheat;
+    text-align: center;
+}
+#about-section p{
+    color: grey;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Estilos Generales*/
 * {
     margin: 0;
